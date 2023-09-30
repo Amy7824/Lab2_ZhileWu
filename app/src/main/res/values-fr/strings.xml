@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lab1</string>
-    <string name="hello_message">Bonjour!</string>
-    <string name="ButtonText">Je suis un bouton</string>
+    <string name="my_GUI">Regarde mon GUI:</string>
+    <string name="ButtonText">Cliquez ici</string>
+    <string name="CheckOut">Regarde ça!</string>
+    <string name="hint_text">Tapez ici</string>
+    <string name="toast_message">Voici plus d\'informations</string>
+    <string name="switchONOFF">Allumer / Eteindre</string>
+    <string name="switch_message">L\'interrupteur est maintenant %s</string>
+
 </resources>

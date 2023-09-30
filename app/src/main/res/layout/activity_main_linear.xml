@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/my_GUI"
+        android:textSize="30dp"
+        android:visibility="visible"/>
+    <!-- Row 2: Button and CheckBox -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonText"
+            android:textSize="20dp"
+            android:visibility="visible"
+            android:onClick="onClickButton" />
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/CheckOut"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+    </LinearLayout>
+    <!-- Row 3: ImageButton and Switch -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/flag"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="122dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:minHeight="48dp"
+            android:text="@string/switchONOFF"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="132dp" />
+    </LinearLayout>
+
+        <EditText
+            android:layout_width="369dp"
+            android:layout_height="49dp"
+            android:hint="@string/hint_text"
+            android:inputType="textCapWords"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+</LinearLayout>
+
